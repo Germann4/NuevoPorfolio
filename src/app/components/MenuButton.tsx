@@ -23,7 +23,7 @@ export default function MenuButton() {
           <li className="text-white px-4 py-2 hover:bg-gray-800 cursor-pointer"><a href='#aboutMe'>About Me</a></li>
           <li className="text-white px-4 py-2 hover:bg-gray-800 cursor-pointer"><a href='#skills'>Skills</a></li>
           <li className="text-white px-4 py-2 hover:bg-gray-800 cursor-pointer"><a href="#projects">Projects</a></li>
-          <li className="text-white px-4 py-2 hover:bg-gray-800 cursor-pointer">Contact Me</li>
+          <li className="text-white px-4 py-2 hover:bg-gray-800 cursor-pointer"><a href="#ContactMe">Contact Me</a></li>
         </ul>
       </div>
       )}
