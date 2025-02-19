@@ -55,20 +55,40 @@ body {
   animation: textAction 6s ease-in-out infinite; /* Animación continua */
 }
 #skills {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Separación horizontal */
-  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas por defecto */
+  gap: 20px;
+  justify-content: center;
+  padding-left: 70px;
 }
 
 #skills img {
-  width: 200px;
-  margin: 3rem;
-  position: relative;
-  right: 6.6rem;
+  width: 150px;
   height: 90px;
+  margin-top: 3rem;
   transition: transform 0.5s ease, filter 0.3s ease;
-  filter: grayscale(100%); /* Inicialmente en escala de grises */
+  filter: grayscale(100%);
+}
+
+/* 📱 4 columnas en pantallas medianas */
+@media (max-width: 1024px) {
+  #skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* 📱 3 columnas en pantallas más pequeñas */
+@media (max-width: 768px) {
+  #skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 📱 2 columnas en móviles */
+@media (max-width: 480px) {
+  #skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 #skills img:hover {
