@@ -54,7 +54,7 @@ body {
 .textAction {
   animation: textAction 6s ease-in-out infinite; /* Animación continua */
 }
-#skills {
+.skills {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 columnas por defecto */
   gap: 20px;
@@ -62,8 +62,8 @@ body {
   padding-left: 70px;
 }
 
-#skills img {
-  width: 150px;
+.skills img {
+  width: 110px;
   height: 90px;
   margin-top: 3rem;
   transition: transform 0.5s ease, filter 0.3s ease;
@@ -72,26 +72,26 @@ body {
 
 /* 📱 4 columnas en pantallas medianas */
 @media (max-width: 1024px) {
-  #skills {
+  .skills {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 /* 📱 3 columnas en pantallas más pequeñas */
 @media (max-width: 768px) {
-  #skills {
+  .skills {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 /* 📱 2 columnas en móviles */
 @media (max-width: 480px) {
-  #skills {
+  .skills {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-#skills img:hover {
+.skills img:hover {
   transform: scale(1.3) rotate(10deg); /* Aumenta el tamaño y rota ligeramente */
   filter: grayscale(0); /* Restaura los colores al pasar el mouse */
 }
