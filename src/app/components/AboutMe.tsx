@@ -11,7 +11,7 @@ function AboutMe(){
       Hola, mi nombre es Germán y soy Desarrollador Full Stack con más de cinco años de experiencia en el desarrollo de soluciones web y móviles. Me especializo en tecnologías como JavaScript, Node.js, React, HTML y CSS. Tengo una sólida experiencia en el diseño de API RESTful, optimización de código y gestión de autenticación de usuarios. Soy proactivo, orientado a resultados y siempre enfocado en mejorar la experiencia del usuario. A lo largo de mi carrera, he combinado habilidades avanzadas en bases de datos, control de versiones y herramientas de desarrollo para crear productos eficientes, escalables y de alto impacto.
     </p>
   </div>
-  <div className="flex flex-row space-x-4 justify-center w-[300px] max-w-[500px]:flex-col max-w-[500px]:items-center max-w-[500px]:mt-2 mt-2">
+  <div className="flex flex-row space-x-4 justify-start w-[300px] max-w-[500px]:flex-col max-w-[500px]:items-center max-w-[500px]:mt-2 mt-2 ml-auto">
     <Link href="https://www.linkedin.com/in/germ%C3%A1n-diorio-1360301ab/" target="_blank" rel="noopener noreferrer">
       <svg xmlns="http://www.w3.org/2000/svg" className="transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer w-24 h-24 sm:w-20 sm:h-20 md:w-16 md:h-16" viewBox="0 0 48 48">
         <path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5 V37z"></path>
