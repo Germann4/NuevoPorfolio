@@ -4,7 +4,6 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -12,13 +11,13 @@ app.use(express.json());
 
 // Configurar el transporte de Nodemailer
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  service: "gmail",
   auth: {
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
   },
   tls: {
-    rejectUnauthorized: false,  // Deshabilita la verificación del certificado
+    rejectUnauthorized: false, // Deshabilita la verificación del certificado
   },
 });
 
@@ -45,5 +44,5 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
-// Iniciar servidor
-app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}`));
+// Exportar `app` para que Vercel lo use
+module.exports = app;
