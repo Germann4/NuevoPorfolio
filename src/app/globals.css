@@ -35,19 +35,15 @@ body {
   }
   25% {
     transform: scale(1.1); /* Aumenta el tamaño */
-    opacity: 0.8; /* Se vuelve ligeramente transparente */
   }
   50% {
     transform: scale(1); /* Vuelve al tamaño normal */
-    opacity: 0; /* Desaparece */
   }
   75% {
     transform: scale(1.1); /* Aumenta de nuevo el tamaño */
-    opacity: 0.8; /* Un poco transparente */
   }
   100% {
     transform: scale(1); /* Vuelve al tamaño normal */
-    opacity: 1; /* Vuelve a ser visible */
   }
 }
 
