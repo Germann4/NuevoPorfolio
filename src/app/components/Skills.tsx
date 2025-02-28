@@ -1,7 +1,7 @@
 function Skills(){
   return (
    <>
-   <h2 className="text-white text-center text-4xl sm:text-5xl md:text-6xl my-10" id='skills'>Habilidades</h2>
+  <h2 className="text-white text-center text-4xl sm:text-5xl md:text-6xl my-10" id='skills'>Habilidades</h2>
   <div className="skills">
     <img src="/img/html.png" alt="HTML" />
     <img src="/img/css-3.png" alt="CSS" />
