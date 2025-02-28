@@ -192,3 +192,27 @@ body {
     height: 50px;
   }
 }
+@media (max-width: 350px) {
+  #skills {
+    margin-top: 12rem;
+    margin-right: 3rem;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 335px) {
+  #skills {
+    margin-top: 18rem;
+    margin-right: 3rem;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 320px) {
+  #skills {
+    margin-top: 21rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+  }
+  #aboutMe h2 {
+    font-size: 1.2rem;
+  }
+}
