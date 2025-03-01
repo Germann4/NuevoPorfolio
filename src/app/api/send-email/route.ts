@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-const nodemailer = require("nodemailer");
+import nodemailer from "nodemailer";
 
 // Definir el método POST para manejar el envío de correos
 export async function POST(req: NextRequest) {
